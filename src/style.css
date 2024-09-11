@@ -30,6 +30,13 @@ h1 {
   margin: 0;
 }
 
+h3 {
+  text-align: center;
+  font-weight: 400;
+  color: #2e2b29;
+  margin-top: 10px;
+}
+
 form {
   padding: 30px;
   margin-bottom: 30px;
@@ -64,6 +71,20 @@ form {
   margin: 30px;
 }
 
+.hidden {
+  display: none;
+}
+
 .poem strong {
   color: #858e7c;
+}
+
+.generating {
+  animation: blink 1s step-start 0s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }

@@ -17,13 +17,14 @@
   <body>
     <div class="container">
       <header>
-        <h1>🐨 </br> Welcome to the AI Poem Generator </h1>
+        <h1>🐨 </br> Korean-English AI Poem Generator </h1>
+        <h3>Enter the topic of a poem you like to generate.</h2>
       </header>
       <main>
         <form id="form-poem-generator">
           <input
             type="text"
-            placeholder="Enter the topic of the poem"
+            placeholder="i. e. universe"
             required
             autocomplete="off"
             class="instructions"
@@ -31,7 +32,7 @@
           />
           <input type="submit" class="submit-button"/>
         </form>
-        <div class="poem" id="poem">
+        <div class="poem hidden" id="poem">
         </div>
       </main>
     </div>
