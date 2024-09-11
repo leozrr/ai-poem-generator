@@ -63,3 +63,7 @@ form {
   border-left: 3px solid #858e7c;
   margin: 30px;
 }
+
+.poem strong {
+  color: #858e7c;
+}
